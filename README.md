@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SoftSell - Software License Resale Platform
 
-## Getting Started
+A responsive, single-page marketing website for a fictional software resale startup called "SoftSell".
 
-First, run the development server:
+## Features Implemented
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Core Requirements
+
+- ✅ Responsive single-page design
+- ✅ Clean UI/UX with modern aesthetics
+- ✅ All required sections:
+  - Hero section with headline and CTA
+  - "How It Works" section with 3 steps
+  - "Why Choose Us" section with 4 key features
+  - Customer testimonials (2 examples)
+  - Contact/Lead form with validation
+
+### Technical Features
+
+- ✅ Built with Next.js
+- ✅ Tailwind CSS for styling
+- ✅ Form validation with error handling
+- ✅ Responsive design for mobile, tablet, and desktop
+- ✅ Dynamic UI components
+
+### Bonus Features
+
+- ✅ Dark/Light mode toggle
+- ✅ Animated UI components with hover effects
+- ✅ SEO meta tags (title and description)
+- ✅ Company logo/branding
+- ✅ AI-powered chat widget with example prompts
+- ✅ Smooth scrolling navigation
+- ✅ Mobile-responsive navigation menu
+
+## Design Choices
+
+### Color Scheme
+
+- Primary colors: Blue and green to represent trust and growth
+- Dark mode: Dark gray backgrounds with lighter text for reduced eye strain
+- High contrast elements for accessibility
+
+### Typography
+
+- Clean, modern sans-serif fonts
+- Hierarchical typographic scale for clear information architecture
+- Font weights to emphasize important content
+
+### UI Components
+
+- Card-based layout for easy scanning of information
+- Clear CTAs with high-visibility buttons
+- Icon usage to visually reinforce key points
+- Subtle shadows and hover effects for depth and interactivity
+
+### User Experience
+
+- Simple navigation with clearly labeled sections
+- Form validation with helpful error messages
+- AI chat widget for immediate user assistance
+- Mobile-first approach with responsive breakpoints
+
+## Project Structure
+
+```
+/src
+  /app
+    page.js      # Main application component with all sections
+  /public
+    favicon.ico  # Website favicon (placeholder)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Development Time
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Research and planning: 1 hour
+- UI/UX design and component planning: 1 hour
+- Core development: 3 hours
+- Chat feature implementation: 1 hour
+- Testing and refinement: 1 hour
+- Documentation: 30 minutes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Total time: ~7.5 hours
 
-## Learn More
+## How to Run
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Run the development server:
+   ```
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Enhancements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Integration with a real backend API
+- User authentication and account dashboard
+- More advanced form validation and filtering options
+- Expanded AI chatbot capabilities
+- Analytics tracking for conversion optimization
+- Blog/resource section with SEO content strategy
+- Multilingual support
