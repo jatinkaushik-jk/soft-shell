@@ -123,7 +123,7 @@ export default function Home() {
                   </div>
                   <h3 className={`text-xl font-medium dark:text-white text-gray-900`}>Get Paid</h3>
                   <p className={`mt-2 dark:text-gray-300 text-gray-500`}>
-                    Accept our offer and receive payment via your preferred method within 2 business days. It's that simple!
+                    Accept our offer and receive payment via your preferred method within 2 business days. It&apos;s that simple!
                   </p>
                   <div className="absolute top-0 right-0 -mt-4 -mr-4 w-8 h-8 rounded-full bg-purple-500 text-white flex items-center justify-center font-bold">
                     3
@@ -142,7 +142,7 @@ export default function Home() {
                 Why Choose SoftSell
               </h2>
               <p className={`mt-4 max-w-2xl mx-auto text-xl dark:text-gray-300 text-gray-500`}>
-                We're the industry leader in software license resale, with a proven track record of success.
+                We&apos;re the industry leader in software license resale, with a proven track record of success.
               </p>
             </div>
 
@@ -235,7 +235,7 @@ export default function Home() {
                         ))}
                       </div>
                       <p className={`mt-2 text-lg font-medium dark:text-white text-gray-900`}>
-                        "SoftSell helped us recover over $85,000 from unused Adobe and Microsoft licenses. The process was incredibly smooth, and we had the money in our account within three days."
+                        &quot;SoftSell helped us recover over $85,000 from unused Adobe and Microsoft licenses. The process was incredibly smooth, and we had the money in our account within three days.&quot;
                       </p>
                       <div className="mt-4">
                         <p className={`text-base font-medium dark:text-white text-gray-900`}>Jennifer Smith</p>
@@ -262,7 +262,7 @@ export default function Home() {
                         ))}
                       </div>
                       <p className={`mt-2 text-lg font-medium dark:text-white text-gray-900`}>
-                        "After downsizing, we had surplus Salesforce licenses. SoftSell&apos;s valuation was 20% higher than competitors, and their compliance team handled all the transfer paperwork. Excellent service!"
+                        &quot;After downsizing, we had surplus Salesforce licenses. SoftSell&apos;s valuation was 20% higher than competitors, and their compliance team handled all the transfer paperwork. Excellent service!&quot;
                       </p>
                       <div className="mt-4">
                         <p className={`text-base font-medium dark:text-white text-gray-900`}>David Miller</p>
